@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery Tutorial</title>
+	<style type="text/css">
+	    body{
+	    	padding: 0;
+	    	margin: 0;
+	    }
+		.image_gallery_wrapper{
+			text-align: center;
+			margin-top: 100px;
+		}
+		.container{
+			width: 960px;
+			display: inline-block;
+		}
+		.image_gallery_item{
+			float: left;
+			display: inline-block;
+			width: 232px;
+			margin: 0;
+			padding: 0;
+			border: 1px solid #ccc;
+		}
+		.image_gallery_item a{
+			display: block;
+			width: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		.image_gallery_item a:hover{}
+		.image_gallery_item a img{
+			max-width: 100%;
+		}
+		.image_gallery_item div{
+			display: block;
+			padding: 15px 0;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="image_gallery_wrapper">
+		<div class="container">
+
+			<!-- for Image 1 -->
+			<div class="image_gallery_item">
+				<a href="https://www.w3schools.com/css/img_fjords.jpg">
+					<img src="https://www.w3schools.com/css/img_fjords.jpg" alt="gallery 1">
+				</a>
+				<div>This is image 1</div>
+			</div>
+
+			<!-- for Image 2 -->
+			<div class="image_gallery_item">
+				<a href="https://www.w3schools.com/css/img_forest.jpg">
+					<img src="https://www.w3schools.com/css/img_forest.jpg" alt="gallery 2">
+				</a>
+				<div>This is image 2</div>
+			</div>
+
+			<!-- for Image 3 -->
+			<div class="image_gallery_item">
+				<a href="https://www.w3schools.com/css/img_lights.jpg">
+					<img src="https://www.w3schools.com/css/img_lights.jpg" alt="gallery 3">
+				</a>
+				<div>This is image 3</div>
+			</div>
+
+			<!-- for Image 4 -->
+			<div class="image_gallery_item">
+				<a href="https://www.w3schools.com/css/img_mountains.jpg">
+					<img src="https://www.w3schools.com/css/img_mountains.jpg" alt="gallery 4">
+				</a>
+				<div>This is image 4</div>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
